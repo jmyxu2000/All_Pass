@@ -1,0 +1,26 @@
+
+table
+    {   width:px;
+        font-size: 16px;
+		
+    }
+
+h1  {
+	color: black; 
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Comic Sans MS;
+	line-height:50%;
+    }
+
+div {
+    text-align: center;
+    }
+	
+body{
+	background-image:url(../images/picture.jpg);
+	background-repeat:no-repeat;
+    background-position:right top
+    
+}

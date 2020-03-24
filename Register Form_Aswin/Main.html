@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main</title>
+<style>
+  body  {
+    background-image: url("image/backg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+        }
+          form {
+          width:500px;
+          margin:auto;
+          padding:20px;
+          background:#33B7FF;
+          font-size:20px;
+          font-family: Calibri;
+          color:Black;
+              }
+                div.align {
+                  text-align: center;
+                          }
+                  #banner {
+                    background-color: #006400;
+                    height: 60px;
+                    text-align: center;
+                          }
+</style>
+  <body>
+      <div class="align">
+      <section>
+        <header>
+            <div class="banner"><h1 style="font-size:50px">Application Form</h1>
+            </div>
+        </header>
+          <br>
+              <form action="Main.html" method="get">
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" placeholder="First" required><br><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" placeholder="Last" required><br><br>
+              <label for="address">Address:</label><br>
+              <input type="text" id="address" placeholder="Address" required><br><br>
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" placeholder="your mail id" required><br><br>
+              <label for="password">Password:</label><br>
+              <input type="password" id="password" placeholder="*********"required><br><br>
+              <label for="phone">Telephone Number:</label><br>
+              <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+              <label for="dob">DoB:</label><br>
+              <input type="date" id="dob" value="" required><br><br>
+              <button type="submit" formaction="Submit.html">Submit</button>
+              </form>
+      </section>
+      </div>
+        <footer>
+              <p>Submitted by: Aswin Purushothaman</p>
+              <p>Contact information: <a href="mailto:aswinp@example.com">
+                aswinp@example.com</a>.</p>
+        </footer>
+    </body>
+</html>

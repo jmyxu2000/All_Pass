@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  </head>
+  <body>
+    <div class="mainheader">
+      <div class="mainlogo">
+        <img src="images/logo.png">
+      </div>
+    </div>
+
+    <form>
+        <div class="mainpage">
+          <p>Please fill in all the fields below and click the submit button once done.</p>
+          <hr>
+
+          <label for="usertitle">Choose a title:</label>
+          <select id="usertitle" name="usertitle">
+            <option value="mr">Mr</option>
+            <option value="miss">Miss</option>
+            <option value="mrs">Mrs</option>
+            <option value="dr">Dr</option>
+            </select>
+            <br><br>
+          <label for="firstname">First Name:</label><br>
+          <input type="text" placeholder="Enter your first name" id="firstname" name="firstname">
+          <br><br>
+          <label for="lastname">Surname:</label><br>
+          <input type="text" placeholder="Enter your last name" id="lastname" name="lastname">
+          <br><br>
+          <label for="street">Address:</label><br>
+          <input type="text" placeholder="Enter street number and name" id="street" name="street">
+          <br><br>
+          <label for="usertitle">Choose a state:</label>
+          <select id="state" name="state">
+            <option value="nsw">NSW</option>
+            <option value="qld">QLD</option>
+            <option value="sa">SA</option>
+            <option value="tas">TAS</option>
+            <option value="vic">VIC</option>
+            <option value="wa">WA</option>
+            <option value="act">ACT</option>
+            <option value="nt">NT</option>
+            </select>
+          <br><br>
+
+          <label for="email">Email Address:</label><br>
+          <input type="email" placeholder="Enter your Email address" id="email" name="email">
+          <br><br>
+          <label for="userpassword">Password:</label><br>
+          <input type="password" placeholder="Enter your password" id="userpassword" name="userpassword">
+          <br>
+          <label for="showpass">Show Password:</label>
+          <input type="checkbox" onclick="showPass()">
+          <br><br>
+          <label for="phone">Telephone Number:</label><br>
+          <input type="tel" placeholder="Enter your telephone number" id="phone" name="phone">
+          <br><br>
+          <label for="birthday">Birthday:</label><br>
+          <input type="date" id="birthday" name="birthday">
+          <br><br>
+          <input type="submit" class="submitbutton">
+        </div>
+
+        <div class="footer">
+          <p>Joseph Morgan S316703</p>
+        </div>
+    </form>
+<!--from https://www.w3schools.com/howto/howto_js_toggle_password.asp -->
+      <script>
+      function showPass() {
+        var x = document.getElementById("userpassword");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+      </script>
+  </body>
+</html>

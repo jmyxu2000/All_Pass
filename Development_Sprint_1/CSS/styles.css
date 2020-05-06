@@ -1,0 +1,133 @@
+.header {
+	padding: 10px;
+	text-align: center;
+	background: #FFFFFF;
+	color: 000000;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	height: 150px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border: 1px solid #ced4da;
+
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #408dc8;
+	margin-left:5%;
+	margin-right:5%;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+
+}
+
+.topnav a {
+	display: block;
+	float: left;
+	padding: 14px;
+	text-decoration: none;
+	font-weight: bold;
+	color:#FFFFFF;
+	text-transform: uppercase;
+	letter-spacing:2px;
+}
+
+.topnav a:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.cards {
+	background-color: #FFFFFF;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top: 1%;
+	height: 400px;
+	padding: 10px;
+
+}
+
+.maincontent {
+	background-color:#FFFFFF;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:1%;
+	height: 500px;
+	padding: 10px;
+	border: 1px solid #ced4da;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.contenttitle {
+	font-size: 45px;
+	color: #2a6592;
+	letter-spacing:2px;
+}
+
+.subhead {
+	font-size: 30px;
+	color: #922a65;
+}
+/*------ The below is the styling for my information card ------*/
+.card {
+	width:300px;
+	height:400px;
+	background-color: #FFFFFF;
+	border: 1px solid #ced4da;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	opacity: 0.9;
+}
+
+.card:hover {
+	border:1px solid #000000;
+	opacity: 1;
+}
+
+.cardimg {
+	width:288px;
+	height:180px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.btn-more {
+	color: #000000;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	border: 2px solid #494949;
+	display: inline-block;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.btn-more:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+.card-title {
+	letter-spacing: 2px;
+	color: #2a6592;
+	font-weight: 700;
+}
+
+hr {
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.card-text {
+	letter-spacing:1px;
+	padding-left:10px;
+	padding-right:10px;
+}

@@ -143,11 +143,12 @@ hr {
 
 .footer {
   background-color: #f1f1f1;
-  padding: 10px;
+  padding: 20px;
   text-align: left;
 	height:300px;
 }
 
 
 .footertitle {
+	font-weight: bold;
 }

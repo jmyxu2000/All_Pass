@@ -148,6 +148,13 @@ hr {
 	height:300px;
 }
 
+.footer.left {
+
+}
+
+.footer.middle {
+	margin-left: 50%;
+}
 
 .footertitle {
 	font-weight: bold;

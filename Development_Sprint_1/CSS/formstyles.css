@@ -1,0 +1,32 @@
+input[type=text],
+input[type=email],
+input[type=tel] {
+  width: 95%;
+  padding: 15px;
+  border: none;
+  background: #f1f1f1;
+  background-position:left;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.submitbutton {
+  background: #408dc8;
+  color: #FFFFFF;
+  border: none;
+  width: 100%;
+  padding: 16px;
+}
+
+input:focus {
+  background: #ddd;
+  outline: none;
+}
+
+.mainpage {
+  width:75%;
+  padding:16px;
+  background-color: white;
+}

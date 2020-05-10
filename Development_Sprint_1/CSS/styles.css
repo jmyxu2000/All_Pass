@@ -238,4 +238,7 @@ hr {
 	.header {
 		height: 80px;
 	}
+	.contenttitle {
+		height:100%;
+	}
 }

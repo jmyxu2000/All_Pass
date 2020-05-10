@@ -148,11 +148,11 @@ body {
 	justify-content: space-between;
 }
 
-.cards_mobile {
+.card_mobile {
 	display: none;
 }
 
-.cards_mobile {
+.card_mobile {
 	margin-left:5%;
 	margin-right:5%;
 	margin-top:1%;
@@ -256,10 +256,10 @@ hr {
 		margin-right: 5%;
 		font-size: 1.500em;
 	}
-	.cards_mobile {
+	.card_mobile {
 		display: block;
 	}
-	.cards {
+	.card {
 		display:none;
 	}
 }

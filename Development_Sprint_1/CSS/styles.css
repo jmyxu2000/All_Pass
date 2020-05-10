@@ -148,9 +148,7 @@ body {
 	justify-content: space-between;
 }
 
-.card_mobile {
-	display: none;
-}
+
 
 .card_mobile {
 	margin-left:5%;
@@ -158,6 +156,16 @@ body {
 	margin-top:1%;
 	height:250px;
 	display: block;
+	background-color: #FFFFFF;
+	border: 1px solid #ced4da;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	opacity: 0.9;
+}
+.card_mobile {
+	display: none;
 }
 
 .card:hover {
@@ -259,7 +267,7 @@ hr {
 	.card_mobile {
 		display: block;
 	}
-	.card {
+	.cards {
 		display:none;
 	}
 }

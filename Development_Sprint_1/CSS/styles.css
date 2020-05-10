@@ -14,6 +14,24 @@
 	border: 1px solid #ced4da;
 }
 
+.header-image {
+	background-image: url(../Images/cloud-computing.jpg);
+	border-bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	min-height: 300px;
+}
+
+.header-title {
+	color: #ffffff;
+	padding: 30px;
+}
+
+.header-title h2 {
+	font-weight: 400;
+}
+
 .logo {
 	float:left;
 }

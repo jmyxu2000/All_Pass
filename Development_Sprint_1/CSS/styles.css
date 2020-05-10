@@ -148,6 +148,18 @@ body {
 	justify-content: space-between;
 }
 
+.cards_mobile {
+	display: none;
+}
+
+.cards_mobile {
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:1%;
+	height:250px;
+	display: block;
+}
+
 .card:hover {
 	border:1px solid #000000;
 	opacity: 1;
@@ -244,7 +256,10 @@ hr {
 		margin-right: 5%;
 		font-size: 1.500em;
 	}
-	.cards {
+	.cards_mobile {
 		display: block;
+	}
+	.cards {
+		display:none;
 	}
 }

@@ -243,6 +243,8 @@ hr {
 		margin-left: 5%;
 		margin-right: 5%;
 		font-size: 1.500em;
-
+	}
+	.cards {
+		display: block;
 	}
 }

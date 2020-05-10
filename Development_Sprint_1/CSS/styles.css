@@ -167,3 +167,17 @@ hr {
 .footertitle {
 	font-weight: bold;
 }
+/*------ Styling for mobile devices ------*/
+
+@media (max-width: 600px) {
+	.logo .mobile {
+		display: block;
+	}
+	.logo .desktop {
+		display: none;
+	}
+	.header {
+		height: 80px;
+		width:100%;
+	}
+}

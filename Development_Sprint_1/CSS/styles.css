@@ -183,6 +183,16 @@ hr {
 	text-decoration: none!important;
 }
 
+.prod-categories a {
+	text-decoration: none!important;
+	color: black!important;
+}
+
+.prod-categories:hover {
+	border: 1px solid black;
+	cursor: pointer;
+}
+
 /*------ Cards for the mobile site
 
 .card_mob_main {

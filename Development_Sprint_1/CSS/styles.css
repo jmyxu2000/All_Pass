@@ -170,6 +170,19 @@ hr {
 	padding-right:10px;
 }
 
+/* product pages */
+
+.prod-sub {
+	font-weight: 100;
+}
+
+.prod-categories {
+	background-color: #f4f4f4;
+	padding: 10px;
+	border: 1px solid #f4f4f4;
+	text-decoration: none!important;
+}
+
 /*------ Cards for the mobile site
 
 .card_mob_main {

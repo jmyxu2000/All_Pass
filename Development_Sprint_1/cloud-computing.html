@@ -14,16 +14,27 @@
 <div class="header">
   <div class="logo">
     <img src="Images/logo.png" alt="logo">
+    <img src="Images/small_logo.png" class="mobile">
   </div>
 </div>
 
 
 <div class="topnav">
   <a href="index.html">Home</a>
-  <a href="#">Cloud Computing</a>
-  <a href="#">Page 3</a>
-  <a href="#">Page 4</a>
-  <a href="#">Page 5</a>
+  <a href="security.html">Security</a>
+  <a href="#">Cloud</a>
+  <a href="Analytics.html">Analytics</a>
+  <a href="storage.html">Storage Solution</a>
+  <a href="#">Page 6</a>
+  <a href="contact.html">Contact us</a>
+</div>
+<!-- Navigation bar for mobile devices -->
+<div class="topnav_mobile">
+  <a href="index.html">Home</a>
+  <a href="security.html">Security</a>
+  <a href="#">Cloud</a>
+  <a href="Analytics.html">Analytics</a>
+  <a href="storage.html">Storage Solution</a>
   <a href="#">Page 6</a>
   <a href="contact.html">Contact us</a>
 </div>
@@ -32,7 +43,7 @@
   <div class="row">
     <div class="col">
       <div class="header-title">
-        <h2>Cloud computing</h2>
+        <h2><i class="fa fa-cloud" aria-hidden="true"></i>  Cloud computing</h2>
         <p>Enable rapid, on-demand access to shared computer processing resources and data</p>
         <p>View all products <i class="fa fa-arrow-right" aria-hidden="true"></i></p>
       </div>
@@ -46,7 +57,7 @@
       <h5>Jump to a section</h5>
     </div>
     <div class="col-md-8 col-sm-8">
-      Cloud database | Cloud management | Cloud security | Cloud storage | Infrastructure as a service | Platform as a service
+      <a href="#cloud-database">Cloud database</a> | <a href="#cloud-management">Cloud management</a> | <a href="#cloud-security">Cloud security</a> | <a href="#cloud-storage">Cloud storage</a>
     </div>
   </div>
   <div class="row py-5">
@@ -54,9 +65,9 @@
       <h5>Browse our Cloud computing categories</h5>
     </div>
     <div class="col-md-8 col-sm-8">
-      <div class="row pb-5 border-bottom">
+      <div class="row pb-5 border-bottom" id="cloud-database">
         <div class="col-md-7 col-sm-7">
-          <h3><i class="fa fa-cloud" aria-hidden="true"></i> Cloud database</h3>
+          <h3>Cloud database</h3>
           <p>Featured</p>
           <h4 class="prod-sub">Run your database in a cloud computing environment, available as a service</h4>
         </div>
@@ -68,26 +79,101 @@
           </a>
         </div>
       </div>
+      <div class="row py-5 border-bottom" id="cloud-management">
+        <div class="col-md-7 col-sm-7">
+          <h3>Cloud management</h3>
+          <p>Featured</p>
+          <h4 class="prod-sub">Manage the self-service delivery and provisioning of cloud infrastructure</h4>
+        </div>
+        <div class="col-md-5 col-sm-5 prod-categories">
+          <a href="#">
+            <h5>Cloud Event Management</h5>
+            <p>Cloud Event Management is a service from IBM that enables operational event and incident correlation, prioritization, and resolution.</p>
+            <p><i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+          </a>
+        </div>
+      </div>
+      <div class="row py-5 border-bottom" id="cloud-security">
+        <div class="col-md-7 col-sm-7">
+          <h3>Cloud security</h3>
+          <p>Featured</p>
+          <h4 class="prod-sub">Protect data, applications and the associated infrastructure of cloud computing</h4>
+        </div>
+        <div class="col-md-5 col-sm-5 prod-categories">
+          <a href="#">
+            <h5>IBM Cloud Identity</h5>
+            <p>IBM Cloud Identity is a cloud identity-as-a-service(IDaas) platform that provides Single Sign-On, access controls, identity governance, multifactor authentication, and provisioning.</p>
+            <p><i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+          </a>
+        </div>
+      </div>
+      <div class="row py-5" id="cloud-storage">
+        <div class="col-md-7 col-sm-7">
+          <h3>Cloud storage</h3>
+          <p>Featured</p>
+          <h4 class="prod-sub">Store data offsite using hosted services that provide data availability and protection</h4>
+        </div>
+        <div class="col-md-5 col-sm-5 prod-categories">
+          <a href="#">
+            <h5>IBM Cloud Object Storage</h5>
+            <p>IBM Cloud Object Storage (COS) provides highly scalable, cost-effective storage based on industry standards and certified hardware.</p>
+            <p><i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="footer">
-  <div class="footertitle">
-    <p>
-      IBM | Sitemap
-    </p>
-  </div>
-
-  <div class="footer left">
-    <li>
-      <a href="index.html">Home</a>
-    </li>
-    <li>
-      <a href="contact.html">Contact Us</a>
-    </li>
+<div class="container-fluid p-5 border-top text-center">
+  <div class="row">
+    <div class="col-md-4 col-sm-4">
+      <h4><i class="fa fa-user" aria-hidden="true"></i> How can we help?</h4>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <h4><i class="fa fa-phone" aria-hidden="true"></i> Call Us Today</h4>
+      <p>00000 00000</p>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <h4><i class="fa fa-envelope" aria-hidden="true"></i> Email Us</h4>
+    </div>
   </div>
 </div>
+
+<div class="container-fluid footer">
+  <div class="row justify-content-center">
+    <div class="col-md-3 col-sm-3 footer-menu">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="security.html">Security</a>
+        </li>
+        <li>
+          <a href="cloud.html">Cloud</a>
+        </li>
+        <li>
+          <a href="Analytics.html">Analytics</a>
+        </li>
+        <li>
+          <a href="storage.html">Storage Solutions</a>
+        </li>
+        <li>
+          <a href="#">Page 6</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-md-3 col-sm-63">
+
+    </div>
+  </div>
+</div>
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="js/bootstrap/bootstrap.min.js"></script>

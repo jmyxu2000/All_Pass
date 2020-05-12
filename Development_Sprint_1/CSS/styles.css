@@ -273,7 +273,17 @@ hr {
   text-align: left;
 }
 
-.footer.left {
+.footerlinks {
+	letter-spacing: 1px;
+}
+
+.footerlinks a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.footerlinks a:hover {
+	color: blue;
 }
 
 .footer.middle {

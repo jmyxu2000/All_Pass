@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="CSS/styles.css">
   <link rel="stylesheet" type="text/css" href="CSS/formstyles.css">
 
+  <script src="js/validate.js"></script>
 
 </head>
 
@@ -59,7 +60,7 @@
     Please fill in all the fields below and click the submit button once done.
 	</div>
 	<p>
-    <form>
+    <form method="POST">
         <div class="mainpage">
 
           <label for="usertitle">Choose a title:</label>
@@ -99,9 +100,9 @@
           <input type="tel" placeholder="Enter your telephone number" id="phone" name="phone">
           <br><br>
           <label for="query">Please enter your query:</label><br>
-          <input type="text" placeholder="Enter your question or query here" id="street" name="query">
+          <input type="text" placeholder="Enter your question or query here" id="query" name="query">
           <br><br>
-          <input type="submit" class="submitbutton" formaction="formsubmit.html">
+          <input type="submit" class="submitbutton" onclick="validateForm()">
         </div>
 
 

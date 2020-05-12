@@ -156,6 +156,12 @@ body {
 	color: #922a65;
 }
 
+/*------ 666 ------*/
+.666 {
+	font-size: 30px;
+	color: #922a65;
+}
+
 /*------ Information cards ------*/
 .card {
 	width:300px;
@@ -384,9 +390,6 @@ hr {
 	border-bottom: 1px solid #dddddd;
 	}
 
-.666 {
-	font-size: 30px;
-	color: #922a65;
-}
+
 	
 }

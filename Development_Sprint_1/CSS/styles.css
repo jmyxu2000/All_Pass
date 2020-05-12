@@ -379,5 +379,11 @@ hr {
 	font-size:0.9em;
 	min-width: 400px;
 	}
+
+.information table tbody tr {
+	border-bottom: 1px solid #dddddd;
+	}
+
+
 	
 }

@@ -391,18 +391,18 @@ hr {
 	border-bottom: 1px solid #dddddd;
 	}
 
-	.container1{width:1200px;
+.container1{width:1200px;
 		margin: aoto;
 		display: flex;
 	}
-	.container1 h5{
+.container1 h5{
 		width: 400px;
 		text-align: right;
 		box-sizing: border-box;
 		padding: 15px;
 	}
 	
-	.congtainer1 .txt1{
+.congtainer1 .txt1{
 		width: 800px
 		text-align: right;
 		box-sizing: border-box;

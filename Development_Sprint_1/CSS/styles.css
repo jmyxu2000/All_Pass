@@ -365,6 +365,11 @@ hr {
 		height: 80px;
 	}
 
+	/*------ Hides the video on homepage on mobile device ------Joseph Morgan */
+	.video {
+		display:none;
+	}
+
 	/*------ Re-size the main title for mobile site ------Joseph Morgan */
 	.contenttitle {
 		height:100%;
@@ -401,7 +406,7 @@ hr {
 		box-sizing: border-box;
 		padding: 15px;
 	}
-	
+
 .container1 .txt1{
 		width: 800px
 		text-align: right;
@@ -409,6 +414,6 @@ hr {
 		padding: 15px;
 		column-count: 2;
 	}
-		
+
 
 }
